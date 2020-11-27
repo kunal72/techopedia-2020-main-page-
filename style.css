@@ -213,12 +213,13 @@ body {
   }
 }
 
-@font-face {
+/* @font-face {
   font-family: 'Nintendoid1';
   font-style: normal;
   font-weight: 400;
   
-}
+} */
+
 #sub-heading { 
         margin-top: 8vw;
        padding: 1em;
