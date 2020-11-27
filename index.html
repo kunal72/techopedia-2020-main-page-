@@ -13,6 +13,7 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
@@ -36,13 +37,14 @@
     <section class="blog py-lg-4 py-md-3 py-sm-3 py-3 techo-sec" id="blog">
          
             <div class="container py-lg-5 py-md-4 py-sm-4 py-3">
+                <div data-aos="zoom-in-up">
             <h3 class="tittle text-center mb-lg-5 pb-3 techo-color text-white"> Techopedia Events</h3>
-           
+        </div>
                 
         <!-- Cards --> 
         <div class="row">       
         <div class="col-xl-3 col-md-6 col-sm-12" style="padding: 12px 12px;">
-            <div class="cards">
+            <div class="cards" data-aos="fade-right">
                 <div class="imgBx">
                     <div>
                     <img src="images/Squabb19.png" style="width: 150px; height: 200px">
@@ -50,8 +52,10 @@
                 </div>
                 </div>
                 <div class="overlay"></div>
-                <div class="content">
-                    <h2>Squabble</h2>
+                <div class="content"  >
+                    
+                    <h2 >Squabble</h2>
+                
                     <p>A National Level Technical Debate Competition.<br>Team of 2<br>Entry Fee :120(IEEE) <br> 150(Non-IEEE)
                     </p>
                 </div>
@@ -62,7 +66,7 @@
                 
                 <!-- Cards -->        
         <div class="col-xl-3 col-md-6 col-sm-12" style="padding: 12px 12px;">
-            <div class="cards">
+            <div class="cards" data-aos="fade-up">
                 <div class="imgBx">
                     <div>
                     <img src="images/Inq19.png" style="width: 150px; height: 200px">
@@ -81,7 +85,7 @@
                 
                 <!-- Cards -->        
         <div class="col-xl-3 col-md-6 col-sm-12" style="padding: 12px 12px;">
-            <div class="cards">
+            <div class="cards" data-aos="fade-down" >
                 <div class="imgBx">
                     <div>
                     <img src="images/Techno19.png" style="width: 150px; height: 200px">
@@ -100,7 +104,7 @@
                 
                 <!-- Cards -->        
         <div class="col-xl-3 col-md-6 col-sm-12" style="padding: 12px 12px;">
-            <div class="cards">
+            <div class="cards" data-aos="fade-left">
                 <div class="imgBx">
                     <div>
                     <img src="images/GotAnyIdea19.png" style="width: 150px; height: 200px">
@@ -130,13 +134,14 @@
   <hr class="clearfix w-100 d-md-none pb-3">
 <!-- 2 Sec -->
 <section>
+    <div data-aos="zoom-in-up">
         <h3 class="tittle text-center mb-lg-5 pb-3 techo-color text-white">Schedule</h3>
-        
+    </div>
       <div class="container">
-<div class="row">
-    <div class="col-md-12">
+<div class="row"  >
+    <div class="col-md-12" >
         <div class="main-timeline">
-            <div class="timeline">
+            <div class="timeline" data-aos="slide-right">
                 <a href="https://bit.ly/2lMGWty" class="timeline-content">
                     <div class="timeline-icon">
                         <i class="fa fa-space-shuttle" ></i>
@@ -151,7 +156,7 @@
                     </p>
                 </a>
             </div>
-            <div class="timeline">
+            <div class="timeline" data-aos="slide-left">
                 <a href="https://bit.ly/2kHigT4" class="timeline-content">
                     <div class="timeline-icon">
                         <i class="fa fa-globe"></i>
@@ -166,7 +171,7 @@
                     </p>
                 </a>
             </div>
-            <div class="timeline">
+            <div class="timeline" data-aos="slide-right">
                 <a href="https://forms.gle/FGyhiFeHBfDzakP37" class="timeline-content">
                     <div class="timeline-icon">
                         <i class="fa fa-rocket"></i>
@@ -181,7 +186,7 @@
                     </p>
                 </a>
             </div>
-            <div class="timeline">
+            <div class="timeline" data-aos="slide-left">
                 <a href="https://bit.ly/2m7MjUpGotAnyIdea" class="timeline-content">
                     <div class="timeline-icon">
                         <i class="fa fa-line-chart"></i>
@@ -212,9 +217,11 @@
     
     
         <section class="faq-section col-lg-12 col-md-12">
-            <strong><h1 class="tittle text-center mb-lg-5 pb-3 techo-color" text- white>FAQs</h1></strong><br>
-        <input type="checkbox" id="q1">
-        <label class="techo-que" for="q1">What is Techopedia?</label>           
+            <div data-aos="zoom-in-up"><strong><h1 class="tittle text-center mb-lg-5 pb-3 techo-color" text- white>FAQs</h1></strong></div>
+            <br>
+        <input type="checkbox"  id="q1">
+        <div data-aos="zoom-in-right">
+        <label class="techo-que" for="q1">What is Techopedia?</label> </div>          
         <p class="techo-lab"></p>
         <p class="techo-faq">Techopedia is an annual technical fest organized by the student chapter of IEEE SIES GST.</p>   
     
@@ -225,7 +232,8 @@
                         <section class="faq-section col-lg-12 col-md-12">
             
         <input type="checkbox" id="q1">
-        <label class="techo-que" for="q1">Are we going to get participation certificates?</label>           
+        <div data-aos="zoom-in-left">
+        <label class="techo-que" for="q1">Are we going to get participation certificates?</label></div>           
         <p class="techo-lab"></p>
         <p class="techo-faq">Each and every participant will be awarded with a certificate on participation in every event.</p>   
     
@@ -236,7 +244,8 @@
     <section class="faq-section col-lg-12 col-md-12">
             
         <input type="checkbox" id="q1">
-        <label class="techo-que" for="q1">What is the arrival time for all events?</label>           
+        <div data-aos="zoom-in-right">
+        <label class="techo-que" for="q1">What is the arrival time for all events?</label></div>           
         <p class="techo-lab"></p>
         <p class="techo-faq">All participants should be present at their alloted venues at morning 9 O'clock.</p>   
     
@@ -247,7 +256,8 @@
     <section class="faq-section col-lg-12 col-md-12">
             
         <input type="checkbox" id="q1">
-        <label class="techo-que" for="q1">Do we have to get our tiffins?</label>           
+        <div data-aos="zoom-in-left">
+        <label class="techo-que" for="q1">Do we have to get our tiffins?</label></div>           
         <p class="techo-lab"></p>
         <p class="techo-faq">It's not mandatory because we got different yummy food stalls on day in campus during the event.</p>   
     
@@ -258,7 +268,8 @@
     <section class="faq-section col-lg-12 col-md-12">
             
         <input type="checkbox" id="q1">
-        <label class="techo-que" for="q1">Where can I register for participation in the events?</label>           
+        <div data-aos="zoom-in-right">
+        <label class="techo-que" for="q1">Where can I register for participation in the events?</label></div>           
         <p class="techo-lab"></p>
         <p class="techo-faq">You can register for any of our events by contacting to our event heads or respective volunteers or by just clicking on the form's Link given in Schedule section of the page. </p>   
     
@@ -269,14 +280,33 @@
     <section class="faq-section col-lg-12 col-md-12">
             
         <input type="checkbox" id="q1">
-        <label class="techo-que" for="q1">Is on-day registration open?</label>           
+        <div data-aos="zoom-in-right">
+        <label class="techo-que" for="q1">Is on-day registration open?</label></div>           
         <p class="techo-lab"></p>
         <p class="techo-faq">Yes it is, but keeping in mind that the deadline is 10 O'clock.</p>   
-    
+    <br>
      
     
     </section>                               
     </div>
+    
+<br>
+<div class="footer">
+    <div class="footer-contain">
+    <img class="footer-img justify-content-center " src="images/ieeesiesblack.png" alt="" srcset=""> <br>
+    <li> <a class="f justify-content-center"  href="https://www.facebook.com/"><i class="social-icon fab fa-facebook-f fa-1x"></i></a>
+     <a class="t justify-content-center"  href="https://www.twitter.com/"><i class="social-icon fab fa-twitter fa-1x"></i></a>
+     <a class="i justify-content-center" href="https://www.instagram.com/"><i class="social-icon fab fa-instagram fa-1x"></i></a>
+     <a class="y justify-content-center"  href="https://www.youtube.com/"><i class="social-icon fab fa-youtube fa-1x"></i></a> </li>
+  </div>
+  </div>
 
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+        duration: 2000,
+        once: true,
+    });
+  </script>
 </body>
 </html>

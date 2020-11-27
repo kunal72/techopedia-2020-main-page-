@@ -1,5 +1,6 @@
 body {
   background-color: #000;
+  overflow-x: hidden;
 }
 #sub-heading{
   font-size: 2.5vw;
@@ -705,4 +706,47 @@ height: 60px !important;
 }
 .text-fot {
   left: 50% !important;
+}
+
+
+/* #footer-container{
+  color: #fff;
+}
+.ieee-footer-img{
+  width: 5%;
+} */
+.footer-img{
+  width: 15%;
+  padding-bottom: 1rem;
+
+}
+.footer{
+  /* background-color:#eeeeee ; */
+  text-align: center;
+  width: 100%;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  overflow-x: hidden;
+  background-color: #414141;
+}
+.f,.t,.i,.y{
+  
+ padding-right: 2rem;
+ color: #fff;
+}
+
+.headercp{
+  padding-top: 1rem;
+}
+
+.s:hover{
+  color:skyblue;
+}
+
+.i:hover{
+  color: purple;
+}
+
+.y:hover{
+  color: red;
 }
