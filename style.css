@@ -109,10 +109,10 @@ body {
     opacity: 0.25;
   }
   7% {
-    transform: translate(-2px, -3px);
+    transform: translate(-0.03125em, -0.046875em);
     opacity: 0.5;
   }
-  10% {
+  10% { 
     transform: none;
     opacity: 0.25;
   }
@@ -121,7 +121,7 @@ body {
     opacity: 0.25;
   }
   30% {
-    transform: translate(-5px, -2px);
+    transform: translate(-0.078125em, -0.015625em);
     opacity: 0.5;
   }
   35% {
@@ -133,7 +133,7 @@ body {
     opacity: 0.25;
   }
   55% {
-    transform: translate(-5px, -1px);
+    transform: translate(-0.078125em, -0.015625em);
     opacity: 0.5;
   }
   50% {
@@ -145,7 +145,7 @@ body {
     opacity: 0.25;
   }
   75% {
-    transform: translate(-2px, -6px);
+    transform: translate(-0.015625em, -0.09375em);
     opacity: 0.5;
   }
   80% {
@@ -157,6 +157,7 @@ body {
     opacity: 0.25;
   }
 }
+
 
 @keyframes glitch3 {
   0% {
@@ -164,7 +165,7 @@ body {
     opacity: 0.25;
   }
   7% {
-    transform: translate(2px, 3px);
+    transform: translate(0.03125em, 0.046875em);
     opacity: 0.5;
   }
   10% {
@@ -176,7 +177,7 @@ body {
     opacity: 0.25;
   }
   30% {
-    transform: translate(5px, 2px);
+    transform: translate(0.078125em, 0.03125em);
     opacity: 0.5;
   }
   35% {
@@ -188,7 +189,7 @@ body {
     opacity: 0.25;
   }
   55% {
-    transform: translate(5px, 1px);
+    transform: translate(0.078125em, 0.015625em);
     opacity: 0.5;
   }
   50% {
@@ -200,7 +201,7 @@ body {
     opacity: 0.25;
   }
   75% {
-    transform: translate(2px, 6px);
+    transform: translate(0.03125em, 0.09375em);
     opacity: 0.5;
   }
   80% {
@@ -213,13 +214,12 @@ body {
   }
 }
 
-/* @font-face {
+@font-face {
   font-family: 'Nintendoid1';
   font-style: normal;
   font-weight: 400;
   
-} */
-
+}
 #sub-heading { 
         margin-top: 8vw;
        padding: 1em;
@@ -229,7 +229,7 @@ body {
        line-height: 1;
        text-shadow: 0.06rem 0 0.06rem #ea36af, -0.125rem 0 0.06rem #75fa69;
        letter-spacing: 0.125em;
-       animation-duration: 0.09s;
+       animation-duration: 0.08s;
        animation-name: textflicker;
        animation-iteration-count: infinite;
        animation-direction: alternate;
@@ -237,13 +237,14 @@ body {
 
 @keyframes textflicker {
   from {
-    text-shadow: 1px 0 0 #ea36af, -2px 0 0 #75fa69;
+    text-shadow: 0.04em 0 0 #ea36af, -0.07em 0 0 #75fa69;
   }
   to {
-    text-shadow: 2px 0.5px 2px #ea36af, -1px -0.5px 2px #75fa69;
+    text-shadow: 0.07em 0.04em 0.2em #ea36af, -0.04em -0.04em 0.2em #75fa69;
   }
 }
 
+/*main banner*/
 
 .overlay{
   position: absolute;
