@@ -1,6 +1,7 @@
 body {
   background-color: #000;
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 #sub-heading{
   font-size: 2.5vw;
