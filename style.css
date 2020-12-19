@@ -270,16 +270,16 @@ body {
   overflow: hidden;
 }
 
-#text {
+#text ,#text1{
   flex: 1;
   line-height: .75;
   margin: auto;
   color: #1af0dc;
   text-align: center;
   transform: scaleX(var(--scale, 1));
-  animation: glitch-p 11s infinite alternate;
+  animation: glitch-p 12s infinite alternate;
 }
-#text::before, #text::after {
+#text::before, #text::after , #text1::before, #text1::after {
   --top: 0;
   --left: 0;
   --v-height: 30%;
@@ -298,10 +298,17 @@ body {
   clip-path: polygon(0% var(--t-cut), 100% var(--t-cut), 100% var(--b-cut), 0% var(--b-cut));
 }
 #text::before {
-  animation: glitch-b 1.7s infinite alternate-reverse;
+  animation: glitch-b 2.7s infinite alternate-reverse;
 }
 #text::after {
-  animation: glitch-a 3.1s infinite alternate;
+  animation: glitch-a 4.1s infinite alternate;
+}
+
+#text1::before {
+  animation: glitch-b 4.1s infinite alternate-reverse;
+}
+#text1::after {
+  animation: glitch-a 2.7s infinite alternate;
 }
 
 @keyframes glitch-p {
