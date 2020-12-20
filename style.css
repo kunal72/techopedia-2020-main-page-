@@ -38,10 +38,39 @@ body {
 }
 #main-banner .teho{
   position: absolute;
-  width: 50%;
+  width: 65%;
   top: 75%;
-  left: 25%;
+  left: 18%;
 }
+#main-banner .space1{
+  position: absolute;
+  top: 3%;
+  left: 16%;
+  width: 22%;
+  height: 16%;
+}
+#main-banner .space3{
+  position: absolute;
+  top: 30%;
+  left: 2%;
+  height: 8%;
+  width: 11%;
+}
+#main-banner .space4{
+  position: absolute;
+  top: 5%;
+  right: 23%;
+  height: 10%;
+  width: 15%;
+}
+#main-banner .space5{
+  position: absolute;
+  top: 19%;
+  right: 0%;
+  height: 8%;
+  width: 11%;
+}
+
 
 /*#heading {
 
@@ -270,7 +299,7 @@ body {
 
 /*main banner*/
 #heading{
-  height: 6em;
+  height: 8.5vw;
 }
 
 :root {
@@ -286,7 +315,7 @@ body {
 
 #heading2{
   font-family: 'Bungee Shade', cursive;
-  font-size: 3.3em;
+  font-size: 4vw;
   background-color: black;
   display: flex;
   min-height: 15vh;
