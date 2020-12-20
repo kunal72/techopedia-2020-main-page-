@@ -38,9 +38,9 @@ body {
 }
 #main-banner .teho{
   position: absolute;
-  width: 65%;
+  width: 61%;
   top: 75%;
-  left: 18%;
+  left: 21%;
 }
 #main-banner .space1{
   position: absolute;
@@ -473,7 +473,7 @@ body {
 }
 
 .overlay{
-  background: linear-gradient(45deg,#000000,#6523e8);
+  background: linear-gradient(45deg,#000000,#1af0dc);
 }
 
 .overlay:before{
@@ -617,7 +617,7 @@ h3.tittle {
 }
 .main-timeline .timeline-content{
   color: #FFFF;
-  background: linear-gradient(to right,#d62053,#AF2850);
+  background: linear-gradient(to right,#d62053,#1af0dc);
   text-align: center;
   padding: 75px 30px 30px;
   display: block;
@@ -670,19 +670,19 @@ h3.tittle {
   right: 30px;
 }
 .main-timeline .timeline:nth-child(4n+2) .timeline-content{
-  background: linear-gradient(to right,#fc8d44,#fc7114);
+  background: linear-gradient(to right,#1af0dc,#fc7114);
 }
 .main-timeline .timeline:nth-child(4n+2) .timeline-icon{
-  background: linear-gradient(125deg, #fc8d44 39%, #fc7114 40%);
+  background: linear-gradient(125deg, #fc8d44 39%,#fc7114  40%);
 }
 .main-timeline .timeline:nth-child(4n+3) .timeline-content{
-  background: linear-gradient(to right,#1071b2,#0A5C96);
+  background: linear-gradient(to right,#1071b2,#1af0dc);
 }
 .main-timeline .timeline:nth-child(4n+3) .timeline-icon{
   background: linear-gradient(125deg, #1071b2 39%, #0A5C96 40%);
 }
 .main-timeline .timeline:nth-child(4n+4) .timeline-content{
-  background: linear-gradient(to right, #3fb1ea,#3DA6DC);
+  background: linear-gradient(to right, #1af0dc,#3DA6DC);
 }
 .main-timeline .timeline:nth-child(4n+4) .timeline-icon{
   background: linear-gradient(125deg, #3fb1ea 39%, #3DA6DC 40%);
@@ -956,4 +956,7 @@ height: 60px !important;
 
 .y:hover{
   color: red;
+}
+.btn-link{
+  color: #1af0dc;
 }
