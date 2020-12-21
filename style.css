@@ -15,7 +15,7 @@ body {
 	height: 83px;
 	top: 0;
 	left: 0;
-	background: rgba(0, 0, 0, 0.7);
+	background: rgba(0, 0, 0, 0.85);
 	width: 100%;
 	z-index: 1000;
 	overflow: hidden;
