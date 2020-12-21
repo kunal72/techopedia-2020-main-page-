@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8" />
-    <meta name="description" content="Techopedia 2020 page of IEEE student chapter of SIES GST, Navi Mumbai.">
-    <meta name="keywords" content="IEEE, ieee, sies, gst, siesgst, official, student, website, techopedia, fest, 2020">
+    <meta name="description" content="Techopedia 9.0 page of IEEE student chapter of SIES GST, Navi Mumbai.">
+    <meta name="keywords" content="IEEE, ieee, sies, gst, siesgst, official, student, website, techopedia, fest, 2020, 2021">
     <meta name="author" content="IEEE SIES GST Student Chapter">
-    <title>IEEE SIES GST | Techopedia 2020</title>
+    <title>IEEE SIES GST | Techopedia 9.0</title>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,400;1,300&family=Rubik&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
@@ -22,20 +22,20 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 
     <!--whatsapp and fb-->
-    <meta property="og:title" content="IEEE SIES GST | Techopedia 2K19" />
-    <meta property="og:description" content="Techopedia 2019 fest of IEEE student chapter of SIES GST, Navi Mumbai." />
+    <meta property="og:title" content="IEEE SIES GST | Techopedia 9.0" />
+    <meta property="og:description" content="Techopedia 9.0 fest of IEEE student chapter of SIES GST, Navi Mumbai." />
     <meta property="og:url" content="https://ieeesiesgst.co.in/techopedia/index.html" />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="https://ieeesiesgst.co.in/images/ieeeicon.png" />
     <meta property="og:image:type" content="image/png" />
     <meta property="og:image:width" content="512" />
     <meta property="og:image:height" content="512" />
-    <meta property="og:image:alt" content="Techopedia 2019 | IEEE SIES GST" />
+    <meta property="og:image:alt" content="Techopedia 9.0 | IEEE SIES GST" />
 
     <!--twitter-->
     <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:title" content="IEEE SIES GST | Techopedia 2K19" />
-    <meta property="twitter:description" content="Techopedia 2019 page of IEEE student chapter of SIES GST, Navi Mumbai." />
+    <meta property="twitter:title" content="IEEE SIES GST | Techopedia 9.0" />
+    <meta property="twitter:description" content="Techopedia 9.0 page of IEEE student chapter of SIES GST, Navi Mumbai." />
     <meta property="twitter:image" content="https://ieeesiesgst.co.in/images/ieeeicon.png" />
     
 
@@ -103,6 +103,29 @@
                 document.getElementById('navbar').style.height = 'auto';
             }
         }
+
+        function activeChange()
+        {
+            if(window.scrollY>=document.getElementById('faq').offsetTop-50)
+            {
+                $('.navbar-list').removeClass('active');
+                $('.faq-list').addClass('active');
+            }
+            else if(window.scrollY>=document.getElementById('register').offsetTop-50)
+            {
+                $('.navbar-list').removeClass('active');
+                $('.register-list').addClass('active');
+            }
+            else if(window.scrollY>=document.getElementById('events').offsetTop-50)
+            {
+                $('.navbar-list').removeClass('active');
+                $('.events-list').addClass('active');
+            }
+            else
+            {
+                $('.navbar-list').removeClass('active');
+            }
+        }
         
     </script>
     
@@ -122,20 +145,14 @@
         </div>
         
         <ul class="navbar-ul mb-0" id="navbar-ul">
-            <a href="#" class="navbar-link">
-                <li class="navbar-list active"><div class="navbar-link-text d-inline">Home</div></li>
+            <a href="#events" class="navbar-link">
+                <li class="navbar-list events-list"><div class="navbar-link-text d-inline">Events</div></li>
             </a>
-            <a href="#" class="navbar-link">
-                <li class="navbar-list"><div class="navbar-link-text d-inline">About Us</div></li>
+            <a href="#register" class="navbar-link">
+                <li class="navbar-list register-list"><div class="navbar-link-text d-inline">Register</div></li>
             </a>
-            <a href="#" class="navbar-link">
-                <li class="navbar-list"><div class="navbar-link-text d-inline">Courses</div></li>
-            </a>
-            <a href="#" class="navbar-link">
-                <li class="navbar-list"><div class="navbar-link-text d-inline">Login</div></li>
-            </a>
-            <a href="#" class="navbar-link" id="reg-link">
-                <li class="navbar-list" id="reg-list"><div class="navbar-link-text d-inline">Register</div></li>
+            <a href="#faq" class="navbar-link">
+                <li class="navbar-list faq-list"><div class="navbar-link-text d-inline">FAQs</div></li>
             </a>
         </ul>
         
@@ -143,6 +160,10 @@
     
     
     <div id="notnav" class="position-fixed h-100 w-100" onclick="menu();"></div>
+
+    <div class="bg0">
+
+    </div>
     
     <div id="main-banner">
         
@@ -271,14 +292,14 @@
     
     
     <!--Schedule-->
-    <div id="schedule"></div>
+    <div id="register"></div>
     <br>
     <hr class="clearfix w-100 d-md-none pb-3">
     <!-- 2 Sec -->
     <section style="overflow-x: hidden; overflow-y: hidden;" >
         <div data-aos="zoom-in-up">
             <h5 class="tittle text-center mb-lg-5 pb-3 techo-color text-white" id="heading2">
-                <p data-text="Schedule" id="text1">Schedule</p>
+                <p data-text="Register" id="text1">Register</p>
             </h5>
         </div>
         <div class="container">
@@ -296,8 +317,8 @@
                                     Mode : Online(Teams)  <br>Contact<br>
                                     Anagha Upparna : 9967434046<br>
                                     Vatsal Kore : 7977728491<br><br>
-                                    <a href="https://forms.gle/EBpHVpdyGnq4cPzb8"> <button type="button" class="btn btn-dark">Register Now</button></a><br>
-                                    <a href="https://docs.google.com/document/d/19ZoyS0NxfUcxswXapd2ySU1ZqbEojeqCIYu8__Eamdc/edit?usp=drivesdk
+                                    <a href="https://forms.gle/EBpHVpdyGnq4cPzb8" target="_blank"> <button type="button" class="btn btn-dark">Register Now</button></a><br>
+                                    <a target="_blank" href="https://docs.google.com/document/d/19ZoyS0NxfUcxswXapd2ySU1ZqbEojeqCIYu8__Eamdc/edit?usp=sharing
                                     "> <button type="button" class="btn btn-link">More Info</button> </a>
                                 </p>
                                 
@@ -314,8 +335,8 @@
                                     Mode : Online(Teams)  <br>Contact<br>
                                     Shreyasi - 9867294822<br>
                                     Mukundan - 9892209762<br><br>
-                                    <a href="  https://forms.gle/CjroU25jbhJ6hLue7"> <button type="button" class="btn btn-dark">Register Now</button></a><br>
-                                    <a href="https://docs.google.com/document/d/19ZoyS0NxfUcxswXapd2ySU1ZqbEojeqCIYu8__Eamdc/edit?usp=drivesdk
+                                    <a href="  https://forms.gle/CjroU25jbhJ6hLue7" target="_blank"> <button type="button" class="btn btn-dark">Register Now</button></a><br>
+                                    <a target="_blank" href="https://docs.google.com/document/d/19ZoyS0NxfUcxswXapd2ySU1ZqbEojeqCIYu8__Eamdc/edit?usp=sharing
                                     "> <button type="button" class="btn btn-link">More Info</button> </a>
                                 </p>
                             </div>
@@ -331,8 +352,8 @@
                                     Mode : Online(Teams)  <br>Contact<br>
                                     Kunal : 7710686469<br>
                                     Kaushik : 9082287562<br><br>
-                                    <a href="https://ieeesiesgst.co.in/technopreneur"> <button type="button" class="btn btn-dark">Register Now</button></a><br>
-                                    <a href="https://docs.google.com/document/d/19ZoyS0NxfUcxswXapd2ySU1ZqbEojeqCIYu8__Eamdc/edit?usp=drivesdk
+                                    <a href="https://ieeesiesgst.co.in/technopreneur" target="_blank"> <button type="button" class="btn btn-dark">Register Now</button></a><br>
+                                    <a target="_blank" href="https://docs.google.com/document/d/19ZoyS0NxfUcxswXapd2ySU1ZqbEojeqCIYu8__Eamdc/edit?usp=sharing
                                     "> <button type="button" class="btn btn-link">More Info</button> </a>
                                 </p>
                             </div>
@@ -348,8 +369,8 @@
                                     Mode : Online(Teams)  <br>Contact<br>
                                     Shreya Mhaske: 9594636885 <br>
                                     Shruti Singh: 7303350608<br><br>
-                                    <a href=" https://forms.gle/8WhpyhrkEhEb8rdn6"> <button type="button" class="btn btn-dark">Register Now</button></a><br>
-                                    <a href="https://docs.google.com/document/d/19ZoyS0NxfUcxswXapd2ySU1ZqbEojeqCIYu8__Eamdc/edit?usp=drivesdk
+                                    <a href=" https://forms.gle/8WhpyhrkEhEb8rdn6" target="_blank"> <button type="button" class="btn btn-dark">Register Now</button></a><br>
+                                    <a target="_blank" href="https://docs.google.com/document/d/19ZoyS0NxfUcxswXapd2ySU1ZqbEojeqCIYu8__Eamdc/edit?usp=sharing
                                     "> <button type="button" class="btn btn-link">More Info</button> </a>
                                 </p>
                             </div>
@@ -373,7 +394,7 @@
             </h5>
         </div>
         
-        <section class="faq-section col-lg-12 col-md-12">
+        <section class="faq-section col-lg-12 col-md-12 my-3">
             
             <input type="checkbox"  id="q1">
             <div data-aos="zoom-in-right">
@@ -386,7 +407,7 @@
             
         </section>
         
-        <section class="faq-section col-lg-12 col-md-12">
+        <section class="faq-section col-lg-12 col-md-12 my-3">
             
             <input type="checkbox" id="q1">
             <div data-aos="zoom-in-left">
@@ -398,7 +419,7 @@
             
         </section>
         
-        <section class="faq-section col-lg-12 col-md-12">
+        <section class="faq-section col-lg-12 col-md-12 my-3">
             
             <input type="checkbox" id="q1">
             <div data-aos="zoom-in-right">
@@ -410,7 +431,7 @@
             
         </section>                    
         
-        <section class="faq-section col-lg-12 col-md-12">
+        <section class="faq-section col-lg-12 col-md-12 my-3">
             
             <input type="checkbox" id="q1">
             <div data-aos="zoom-in-left">
@@ -422,7 +443,7 @@
             
         </section>           
         
-        <section class="faq-section col-lg-12 col-md-12">
+        <section class="faq-section col-lg-12 col-md-12 my-3">
             
             <input type="checkbox" id="q1">
             <div data-aos="zoom-in-right">
@@ -435,7 +456,7 @@
             
         </section>           
         
-        <section class="faq-section col-lg-12 col-md-12">
+        <section class="faq-section col-lg-12 col-md-12 my-3">
             
             <input type="checkbox" id="q1">
             <div data-aos="zoom-in-right">
@@ -453,10 +474,10 @@
     <div class="footer">
         <div class="footer-contain">
             <img class="footer-img justify-content-center " src="images/ieeesiesblack.png" alt="" srcset=""> <br> 
-            <a class="f justify-content-center"  href="https://www.facebook.com/"><i class="social-icon fab fa-facebook-f fa-1x"></i></a>
-            <a class="t justify-content-center"  href="https://www.twitter.com/"><i class="social-icon fab fa-twitter fa-1x"></i></a>
-            <a class="i justify-content-center" href="https://www.instagram.com/"><i class="social-icon fab fa-instagram fa-1x"></i></a>
-            <a class="y justify-content-center"  href="https://www.youtube.com/"><i class="social-icon fab fa-youtube fa-1x"></i></a> 
+            <a class="f justify-content-center"  href="https://www.facebook.com/groups/714385779076148/?ref=share"><i class="social-icon fab fa-facebook-f fa-1x"></i></a>
+            <a class="t justify-content-center"  href="https://github.com/ieeesiesgst"><i class="social-icon fab fa-github fa-1x"></i></a>
+            <a class="i justify-content-center" href="https://www.instagram.com/ieeesiesgst/"><i class="social-icon fab fa-instagram fa-1x"></i></a>
+            <a class="y justify-content-center"  href="https://www.youtube.com/channel/UCXAeBcDQQBiuVtzn4ke-Xsw"><i class="social-icon fab fa-youtube fa-1x"></i></a> 
         </div>
     </div>
     
@@ -493,9 +514,11 @@
         
         window.onscroll = function() {
             navchange();
+            activeChange();
         }
         
         
     </script>
+    
 </body>
 </html>

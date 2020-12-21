@@ -15,7 +15,7 @@ body {
 	height: 83px;
 	top: 0;
 	left: 0;
-	background: rgba(0, 0, 0, 0.9);
+	background: rgba(0, 0, 0, 0.7);
 	width: 100%;
 	z-index: 1000;
 	overflow: hidden;
@@ -226,6 +226,22 @@ body {
 	position: relative;
 	min-height: 50vw;
 }*/
+
+.bg0
+{
+	background: url(./images/background0.png);
+	background-size: cover;
+	height: 83px;
+}
+
+@media (max-width: 850px)
+{
+	.bg0
+	{
+		height: 60px;
+	}
+}
+
 #main-banner {
 	position: relative;
 }
