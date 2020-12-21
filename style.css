@@ -1202,7 +1202,8 @@ h3.tittle {
 }
 .f,.t,.i,.y{
 	
-	padding-right: 2rem;
+	padding-right: 1rem;
+	padding-left: 1rem;
 	color: #fff;
 }
 
